@@ -1,6 +1,8 @@
 TelerikUI for Xamarin.iOS
 ---
 
+Screenshots: http://imgur.com/a/karaC
+
 ###Setup Instructions
 
 
