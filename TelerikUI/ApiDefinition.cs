@@ -584,6 +584,10 @@ namespace TelerikUI
 
 		[Export ("visualPointForSeries:dataPointIndex:")]
 		TKChartVisualPoint VisualPointForSeries (TKChartSeries series, int dataPointIndex);
+
+		[Export("initWithFrame:")]
+		IntPtr Constructor (RectangleF frame);
+
 	}
 
 	[Model, BaseType (typeof(NSObject))]
@@ -1291,6 +1295,22 @@ namespace TelerikUI
 	{
 		[Export ("gapLength")]
 		float GapLength { get; set; }
+
+		[Export ("initWithItems:")]
+		IntPtr Constructor (NSObject[] items);
+//
+//		[Export ("initWithItems:reuseIdentifier:")]
+//		IntPtr Constructor (NSObject[] items, string reuseIdentifier);
+//
+//		[Export ("initWithItems:forKeys:")]
+//		IntPtr Constructor (NSObject[] items, NSDictionary keys);
+//
+//		[Export ("initWithItems:forKeys:reuseIdentifier:")]
+//		IntPtr Constructor (NSObject[] items, NSDictionary keys, string reuseIdentifier);
+//
+//		[Export ("initWithItems:xValueKey:yValueKey:")]
+//		IntPtr Constructor (NSObject[] items, string xValueKey, string yValueKey);
+
 	}
 
 	[BaseType (typeof(TKChartSeries))]

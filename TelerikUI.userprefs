@@ -1,6 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.0" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="TelerikUISample/TelerikUISampleViewController.cs" Line="43" Column="35" />
+      <File FileName="TelerikUI/ApiDefinition.cs" Line="689" Column="3" />
+      <File FileName="TelerikUI/TelerikUI.linkwith.cs" Line="1" Column="1" />
+      <File FileName="TelerikUISample/Main.cs" Line="1" Column="1" />
+      <File FileName="TelerikUI/StructsAndEnums.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
