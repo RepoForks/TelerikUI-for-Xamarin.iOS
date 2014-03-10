@@ -1,6 +1,9 @@
 TelerikUI for Xamarin.iOS
 ---
 
+**Please note that Telerik's UI for iOS is still in beta, their EULA restricts to use it only for testing purpose and it is not allowed use in production.**
+
+
 Screenshots: http://imgur.com/a/karaC
 
 ###Setup Instructions
@@ -15,4 +18,4 @@ Screenshots: http://imgur.com/a/karaC
 - Add TelerikUI.a to TelerikUI project and set Build action as `ObjcBindingNativeLibrary`
 - Finally, Build the project.
 
-_Note: I have not tested all chart types, so you may encounter few exceptions using these bindings. Please create an issue if you get any errors_
+_PS: I have not tested all chart types, so you may encounter few exceptions using these bindings. Please create an issue if you get any errors_
